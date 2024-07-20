@@ -6,13 +6,14 @@ class ApplicationThemeManager {
     primaryColor: primaryColor,
     scaffoldBackgroundColor: Colors.transparent,
     appBarTheme: const AppBarTheme(
-        centerTitle: true,
-        backgroundColor: Colors.transparent,
-        titleTextStyle: TextStyle(
+      centerTitle: true,
+      backgroundColor: Colors.transparent,
+      titleTextStyle: TextStyle(
           fontSize: 30,
           fontWeight: FontWeight.bold,
           fontFamily: "ElMessiri",
-        )),
+          color: Colors.black),
+    ),
     textTheme: const TextTheme(
       titleLarge: TextStyle(
         fontSize: 30,
@@ -21,7 +22,7 @@ class ApplicationThemeManager {
       ),
       bodyLarge: TextStyle(
         fontSize: 25,
-        fontWeight: FontWeight.bold,
+        fontWeight: FontWeight.w500,
         fontFamily: "ElMessiri",
       ),
       bodyMedium: TextStyle(
