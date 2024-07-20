@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:islami_app_c11_sat/modules/quarn%20/quran_view.dart';
-import 'package:islami_app_c11_sat/modules/radio/radio_view.dart';
-import 'package:islami_app_c11_sat/modules/settings/settings_view.dart';
-import 'package:islami_app_c11_sat/modules/tasbeh/tasbeh_view.dart';
 
 import '/modules/hadeth/hadeth_view.dart';
+import '/modules/quran/quran_view.dart';
+import '/modules/radio/radio_view.dart';
+import '/modules/settings/settings_view.dart';
+import '/modules/tasbeh/tasbeh_view.dart';
 
 class LayOutPage extends StatefulWidget {
   static const String routeName = "layouts";
