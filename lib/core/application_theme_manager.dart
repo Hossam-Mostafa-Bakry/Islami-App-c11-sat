@@ -45,5 +45,9 @@ class ApplicationThemeManager {
         showUnselectedLabels: true,
         unselectedIconTheme: const IconThemeData(size: 28, color: Colors.white),
         unselectedItemColor: Colors.white),
+    dividerTheme: DividerThemeData(
+      color: primaryColor,
+      space: 10,
+    ),
   );
 }
